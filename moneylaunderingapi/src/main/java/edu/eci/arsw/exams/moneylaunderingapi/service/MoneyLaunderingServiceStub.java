@@ -1,10 +1,12 @@
 package edu.eci.arsw.exams.moneylaunderingapi.service;
 
 import edu.eci.arsw.exams.moneylaunderingapi.model.SuspectAccount;
+import java.util.ArrayList;
 
 import java.util.List;
 
 public class MoneyLaunderingServiceStub implements MoneyLaunderingService {
+
     @Override
     public void updateAccountStatus(SuspectAccount suspectAccount) {
         //TODO
@@ -19,6 +21,8 @@ public class MoneyLaunderingServiceStub implements MoneyLaunderingService {
     @Override
     public List<SuspectAccount> getSuspectAccounts() {
         //TODO
-        return null;
+        List<SuspectAccount> suspectAccounts = new ArrayList<SuspectAccount>();
+        
+    return null;
     }
 }
